@@ -1,6 +1,7 @@
-#<img src="https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/UtilX.png" align="left" height="48" width="48" > UtilX [![MIT License][license-image]][license-url]
+#<img src="https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/UtilX.png" align="left" height="48" width="48" > UtilX
 A bunch of feature bundled into a WPF application. 
 
+[![MIT License][license-image]][license-url]
 
 ![WidgetImage](https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/Gadget.PNG)
 
