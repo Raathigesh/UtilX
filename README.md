@@ -14,3 +14,8 @@ A bunch of feature bundled into a WPF application.
 - Theming Support for CPU/RAM gadget
 - If something useful and cool comes up, it will most probably land here as a feature
 
+[![MIT License][license-image]][license-url]
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
+
+
