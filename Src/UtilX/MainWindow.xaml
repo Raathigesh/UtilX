@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:local="clr-namespace:UtilX" x:Class="UtilX.MainWindow"
+        Title="MainWindow" Height="174" Width="373" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" ShowInTaskbar="False" MouseDown="Window_MouseDown">
+
+    <Window.Background>
+        <SolidColorBrush Opacity="0.5" />
+    </Window.Background>
+
+
+    <Grid x:Name="GuageGrid">
+        <local:Guage x:Name="CpuDial"/>
+        <local:Guage x:Name="RamDial" Margin="179,0,26,0"/>
+        
+    </Grid>
+</Window>

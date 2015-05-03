@@ -1,0 +1,23 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+	mc:Ignorable="d"
+	x:Class="UtilX.Guage"
+	x:Name="Dial"
+	d:DesignWidth="166" d:DesignHeight="166">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid x:Name="Container">
+            <ed:Arc ArcThickness="152" ArcThicknessUnit="Pixel" EndAngle="360" Fill="#FFB2B2B2" HorizontalAlignment="Left" Height="166" Stretch="None" StartAngle="0" VerticalAlignment="Top" Width="166" RenderTransformOrigin="0.491,0.53" Opacity="0.265"/>
+            <ed:Arc ArcThickness="20" ArcThicknessUnit="Pixel" EndAngle="360" Fill="#FFC7C7C9" HorizontalAlignment="Left" Height="166" Stretch="None" StartAngle="0" VerticalAlignment="Top" Width="166"/>
+            <ed:Arc x:Name="Progress" ArcThickness="31" ArcThicknessUnit="Pixel" EndAngle="360" Fill="#FF65C357" HorizontalAlignment="Left" Height="166" Stretch="None" VerticalAlignment="Top" Width="166"/>
+            <Label x:Name="Percentage" Content="100 %" HorizontalAlignment="Left" Height="33" Margin="55,89,0,0" VerticalAlignment="Top" Width="55" FontSize="18.667" Foreground="White" FontFamily="Segoe UI Light" TextOptions.TextHintingMode="Animated" FontWeight="Thin" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <StackPanel Margin="62.417,49.834,0,0" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="41.25" Height="41.25">
+                <Image x:Name="Icon"  Source="Icon/75124.png" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Opacity="0.435"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

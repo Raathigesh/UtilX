@@ -1,0 +1,20 @@
+﻿<Controls:MetroWindow x:Class="WpfApplication1.Settings"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings" Height="380" Width="468" >
+    <Grid>
+        <Button x:Name="btnSave" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="325,314,0,0" Click="Button_Click">
+            Ok
+        </Button>
+        <Controls:ToggleSwitch x:Name="toggleCpuRamDial" Margin="271,58,10,240" IsCheckedChanged="toggleCpuRamDial_IsCheckedChanged" />
+        <Controls:NumericUpDown x:Name="txtActiveWindowCount" Minimum="0" Margin="271,174,10,149" ValueChanged="txtActiveWindowCount_ValueChanged" />
+        <Label Content="Show CPU/RAM Dial" HorizontalAlignment="Left" Height="25" Margin="10,65,0,0" VerticalAlignment="Top" Width="215"/>
+        <Label Content="Active Explorer Windows" HorizontalAlignment="Left" Height="25" Margin="10,175,0,0" VerticalAlignment="Top" Width="215"/>
+        <Controls:ToggleSwitch x:Name="toggleActiveWindowRestriction" Margin="271,114,10,189" IsCheckedChanged="toggleActiveWindowRestriction_IsCheckedChanged" />
+        <Label Content="Restrict Active Explorer Windows" HorizontalAlignment="Left" Height="25" Margin="10,121,0,0" VerticalAlignment="Top" Width="215"/>
+        <Controls:ToggleSwitch x:Name="toggleStartUp" Margin="271,3,10,296" IsCheckedChanged="toggleStartUp_IsCheckedChanged"/>
+        <Label Content="Start at Windows Startup" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" VerticalAlignment="Top" Width="215"/>
+
+    </Grid>
+</Controls:MetroWindow>
