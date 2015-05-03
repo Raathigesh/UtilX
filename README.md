@@ -1,5 +1,5 @@
 #<img src="https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/UtilX.png" align="left" height="48" width="48" > UtilX
-A bunch of feature bundled into a WPF app. Nothing Fancy though.
+A bunch of feature bundled into a WPF application.
 
 ![WidgetImage](https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/Gadget.PNG)
 
