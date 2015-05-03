@@ -1,5 +1,6 @@
-#<img src="https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/UtilX.png" align="left" height="48" width="48" > UtilX
+#<img src="https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/UtilX.png" align="left" height="48" width="48" > UtilX [![MIT License][license-image]][license-url]
 A bunch of feature bundled into a WPF application. 
+
 
 ![WidgetImage](https://raw.githubusercontent.com/Raathigesh/UtilX/master/Wiki/Images/Gadget.PNG)
 
@@ -14,7 +15,7 @@ A bunch of feature bundled into a WPF application.
 - Theming Support for CPU/RAM gadget
 - If something useful and cool comes up, it will most probably land here as a feature
 
-[![MIT License][license-image]][license-url]
+
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
 
